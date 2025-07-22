@@ -6,7 +6,7 @@ type Props = {};
 
 const SignIn = (props: Props) => {
   return (
-    <View>
+    <View style={styles.parentWrapper}>
       <Text>SignIn</Text>
     </View>
   );
