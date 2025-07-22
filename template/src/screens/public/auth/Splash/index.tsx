@@ -4,7 +4,7 @@ import styles from './styles';
 
 const Splash = () => {
   return (
-    <View>
+    <View style={styles.parentWrapper}>
       <Text>Splash</Text>
     </View>
   );
