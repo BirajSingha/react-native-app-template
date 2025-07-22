@@ -1,8 +1,4 @@
 {
-  "scripts": {
-    "release-apk-build": "cd android && ./gradlew clean && ./gradlew assembleRelease && cd .. && open -R android/app/build/outputs/apk/release/",
-    "release-bundle-build": "cd android && ./gradlew clean && ./gradlew bundleRelease && cd .. && open -R android/app/build/outputs/bundle/release/"
-  },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native-community/netinfo": "^11.4.1",
