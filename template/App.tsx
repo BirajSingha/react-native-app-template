@@ -6,12 +6,12 @@
  */
 
 import StackNavigation from '@app/navigation/StackNavigation';
-import MyStatusBar from '@app/utils/helpers/MyStatusBar';
+import { StatusBar } from 'react-native';
 
 function App() {
   return (
     <>
-      <MyStatusBar barStyle={'dark-content'} />
+      <StatusBar barStyle={'default'} translucent />
       <StackNavigation />
     </>
   );
