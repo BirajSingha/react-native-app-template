@@ -1,7 +1,7 @@
 module.exports = {
   presets: ['module:@react-native/babel-preset'],
   plugins: [
-    'react-native-reanimated/plugin',
+    'react-native-worklets/plugin',
     [
       'module:react-native-dotenv',
       {
@@ -18,7 +18,7 @@ module.exports = {
       {
         alias: {
           '@app': './src',
-          '@components': './src/components/*',
+          '@components': './src/components',
           '@screens': './src/screens',
           '@themes': './src/themes',
           '@types': './src/types',
