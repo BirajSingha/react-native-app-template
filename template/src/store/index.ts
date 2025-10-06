@@ -1,7 +1,6 @@
 import {combineReducers, configureStore} from '@reduxjs/toolkit';
 import authReducer from './slice/auth.slice';
 import userReducer from './slice/user.slice';
-import supportReducer from './slice/support.slice';
 import {TypedUseSelectorHook, useDispatch, useSelector} from 'react-redux';
 import {persistStore, persistReducer} from 'redux-persist';
 import Storage from '../utils/storage';
@@ -13,7 +12,6 @@ const createSagaMiddleware = require('redux-saga').default;
 const rootReducer = combineReducers({
   auth: authReducer,
   user: userReducer,
-  support: supportReducer,
 });
 
 const persistConfig = {
